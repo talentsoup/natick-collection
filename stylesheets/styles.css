@@ -177,16 +177,6 @@ span.bold {
 	/*border: 1px solid black;*/
 }
 
-/*#natick-ts-link2 {
-	position: absolute;
-	left: 183px;
-	top: 696px;
-	width: 100px;
-	height: 23px;
-	background-color: transparent;
-	border: 1px solid black;
-}*/
-
 /* Natick Links	*/
 
 .natick-links a:link, a:visited {
@@ -319,6 +309,7 @@ ul#footnav li a.active, ul#footnav li a:hover {
 #natick {
 	background: #f15d5e url('http://natick.s3.amazonaws.com/landing-bg.jpg') no-repeat;
 	background-size: 100% auto;
+	background-attachment: fixed;
 }
 
 #natick-signup {
