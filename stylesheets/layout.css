@@ -1,0 +1,80 @@
+/*
+Title:		Site Layout Structure
+Author:		Cameron Morgan
+*/
+
+#wrap {
+	width:980px;
+	margin:0 auto;
+	/*color: #aaa;*/
+	position:relative;
+	/*background:#f6f6f6;*/
+	padding-bottom:20px;
+}
+
+#header {
+	height: 80px;
+	padding-top:20px;
+	padding-bottom:0px;
+	overflow: hidden;
+}
+
+#header #header-content {
+    padding-left: 1px;
+    width: 980px;
+    overflow: hidden;
+}
+
+
+#main {
+	height: 350px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background: white;
+}
+
+#main-home {
+	height: 475px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background: white;
+}
+
+#col1 {
+	float: left;
+	width: 275px;
+}
+
+#col2 {
+	float: right;
+	width: 650px;
+	z-index: 1;
+	clear: right;
+}
+
+#col2b {
+	float: left;
+	position: absolute;
+	left: 450px;
+	top: 30px;
+	width: 500px;
+	z-index: 1;
+	clear: right;
+}
+
+
+#companies {
+	float: left;
+	width: 960px;
+}
+
+
+#footer {
+	height: 100px;
+	margin:0;
+	padding: 40px 60px 40px 60px;
+	font-size: 11px;
+	color: white;
+	background: #ba3226;
+}
+
