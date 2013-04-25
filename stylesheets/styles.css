@@ -1,0 +1,393 @@
+/*
+Title:		Primary Content Styles
+Author:		Cameron Morgan
+*/
+
+@charset "UTF-8";
+
+body {
+	margin:0px; padding:0px;
+  background: none repeat scroll 0 0 #f6f6f6;
+  padding: 34px 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	font-size:13px;
+	line-height:19px;
+}
+
+h1 {
+	font-size: 16px;
+	color: #ba3226;
+	line-height: 26px;
+}
+
+h2 {
+	font-size: 13px;
+	color: #9b9c9b;
+	font-style: italic;
+	line-height: 20px;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 12px;
+	color: #ba3226;
+	font-style: italic;
+}
+
+/* Header ------------------------------------------------------ */
+
+/* Buttons */
+
+button.site-button, a.site-button, input[type=submit].site-button {
+	padding: 3px 5px;
+	background: #30939f;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 1;
+}
+
+
+/* Natick Buttons */
+
+button.natick-button, a.natick-button, input[type=submit].natick-button {
+	padding: 9px 18px;
+	background: #30939f;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	font-family: "Raleway", Helvetica, Arial, Sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 1;
+}
+
+button.natick-button:hover, a.natick-button:hover, input[type=submit].natick-button:hover {
+	background: #ffe293;
+	color: #30939f;
+}
+
+.small-caps {
+	font-size: 10px;
+}
+
+.italic-underline {
+	font-style: italic;
+	text-decoration: underline;
+	color: #fff;
+}
+
+div > p.natick-text {
+	font-size: 16px;
+	line-height:22px;
+	font-family: "Merriweather Sans", serif;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+span.bold {
+	font-weight: 300;
+}
+
+
+/* Natick Landing Image Maps */
+
+#natick-fb-link1 {
+	position: absolute;
+	left: 163px;
+	top: 626px;
+	width: 9px;
+	height: 9px;
+	background-color: transparent;
+	/*border: 1px solid black;*/
+}
+
+#natick-tw-link1 {
+	position: absolute;
+	left: 179px;
+	top: 626px;
+	width: 9px;
+	height: 9px;
+	background-color: transparent;
+	/*border: 1px solid black;*/
+}
+
+#natick-ggp-link1 {
+	position: absolute;
+	left: 204px;
+	top: 619px;
+	width: 47px;
+	height: 17px;
+	background-color: transparent;
+	/*border: 1px solid black;*/
+}
+
+#natick-subtext {
+	position: absolute;
+	color: #f15d5e;
+	left: 50px;
+	top: 860px;
+	width: 350px;
+	/*background-color: transparent;*/
+	/*border: 1px solid black;*/
+}
+
+#natick-subtext p{
+	margin-bottom: 10px;
+}
+
+/* Natick Sign Up Image Maps */
+
+#natick-fb-link2 {
+	position: absolute;
+	left: 185px;
+	top: 708px;
+	width: 9px;
+	height: 9px;
+	background-color: transparent;
+	/*border: 1px solid black;*/
+}
+
+#natick-tw-link2 {
+	position: absolute;
+	left: 203px;
+	top: 708px;
+	width: 9px;
+	height: 9px;
+	background-color: transparent;
+	/*border: 1px solid black;*/
+}
+
+#natick-ggp-link2 {
+	position: absolute;
+	left: 230px;
+	top: 700px;
+	width: 47px;
+	height: 17px;
+	background-color: transparent;
+	/*border: 1px solid black;*/
+}
+
+/* Natick Links	*/
+
+.natick-links a:link, a:visited {
+	color: #ffe293;
+}
+.natick-links a:hover {
+	color: #7b4b7d;
+}
+
+
+/* Main Styles ------------------------------------------------- */
+
+#col1 h1 {
+	color: #ba3226;
+}
+
+#col1 p {
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+div#main > h1 {
+	color: #ba3226;
+}
+
+div#main > p {
+	color: #707070;
+	font-style: italic;
+}
+
+#main p {
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#main-terms {
+	height: 6500px;
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#main-booking {
+	height: 700px;
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#main-signup {
+	height: 1150px;
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#main-quotes {
+	height: 2200px;
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#main-blog {
+	height: 2600px;
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#main-talent-dash {
+	height: 425px;
+	color: #707070;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#box {
+	text-align: center;
+}
+
+/* Secondary Styles -------------------------------------------- */
+
+
+/* Footer ------------------------------------------------------ */
+
+#logo-footer-right {
+	display: block;
+    float: right;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+	}
+
+#logo-footer-left {
+	display: block;
+    float: left;
+    padding-right: 10px;
+	}
+
+/* Footer Navigation */
+
+ul#footnav {
+	margin:0px; padding:0px;
+	float: right;
+	padding-right: 15px;
+}
+
+ul#footnav li {
+	display:inline;
+	margin-left:12px;
+}
+
+ul#footnav li a {
+	text-decoration:none;
+	color:#fff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+ul#footnav li a.active, ul#footnav li a:hover {
+	color:#9b9c9b;
+	text-decoration: underline;
+}
+
+
+/* Natick ------------------------------------------------------ */
+
+#natick {
+	background: #f15d5e url('http://natick.s3.amazonaws.com/landing-bg.jpg') no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+#natick-signup {
+	background: #c64977 url('http://natick.s3.amazonaws.com/signup-bg.jpg') no-repeat;
+	background-size: 100% auto;
+}
+
+
+/* Classes ------------------------------------------------------ */
+
+hr, .hide {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.grid-wrap {
+    margin: 20px 0;
+    overflow: auto;
+    width: 990px;
+}
+
+.align-right {
+	float: right;
+	padding-right: 15px;
+}
+
+.align-left {
+	float: left;
+	padding-left: 15px;
+	line-height: 15px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+img.home {
+	display: block;
+	float: left;
+	margin-left: 50px;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+
+div.hr {
+  height: 2px;
+  background: #ba3226;
+}
+div.hr hr {
+  display: none;
+}
+
+div.pagination {
+    margin: 3px;
+    padding: 3px;
+}
+
+.left-padding {
+	padding-left: 10px;
+}
+
+
+/* Clear Floats */
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
