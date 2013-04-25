@@ -7,14 +7,13 @@ Author:		Cameron Morgan
 
 body {
 	margin:0px; padding:0px;
-    background: none repeat scroll 0 0 #f6f6f6;
-    padding: 34px 0 0;
+  background: none repeat scroll 0 0 #f6f6f6;
+  padding: 34px 0 0;
 	font-family:Arial, Helvetica, sans-serif;
 	color: white;
 	font-size:13px;
 	line-height:19px;
 }
-
 
 h1 {
 	font-size: 16px;
@@ -36,42 +35,7 @@ h3 {
 	font-style: italic;
 }
 
-
-
 /* Header ------------------------------------------------------ */
-
-#logo {
-	display: block;
-    float: left;
-	}
-
-/* Top Navigation */
-
-
-ul#nav {
-	margin:0px; padding:0px;
-	margin-right: 10px;
-	float: right;
-    text-align: right;
-    width: 490px;
-}
-
-ul#nav li {
-	display:inline;
-	margin-left:12px;
-}
-
-ul#nav li a {
-	text-decoration:none;
-	color:#707070;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:12px;
-}
-
-ul#nav li a.active, ul#nav li a:hover {
-	text-decoration: underline;
-	color:#ba3226;
-}
 
 /* Buttons */
 
@@ -97,7 +61,7 @@ button.natick-button, a.natick-button, input[type=submit].natick-button {
 	font-size: 15px;
 	color: #fff;
 	text-decoration: none;
-	font-family: Helvetica, Arial, Sans-serif;
+	font-family: "Raleway", Helvetica, Arial, Sans-serif;
 	text-transform: uppercase;
 	cursor: pointer;
 	display: inline-block;
@@ -110,8 +74,6 @@ button.natick-button:hover, a.natick-button:hover, input[type=submit].natick-but
 	color: #30939f;
 }
 
-
-
 .small-caps {
 	font-size: 10px;
 }
@@ -123,7 +85,9 @@ button.natick-button:hover, a.natick-button:hover, input[type=submit].natick-but
 }
 
 div > p.natick-text {
-	font-size: 15px;
+	font-size: 16px;
+	line-height:22px;
+	font-family: "Merriweather Sans", serif;
 }
 
 .caps {
