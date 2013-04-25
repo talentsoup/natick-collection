@@ -73,110 +73,6 @@ ul#nav li a.active, ul#nav li a:hover {
 	color:#ba3226;
 }
 
-/* Client & Talent Sections */
-
-.client-box, .talent-box {
-	display: inline;
-	position: relative;
-	padding: 10px 75px;
-	top: 20px;
-	background-color: #9b9c9b;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
-
-div.client-box, div.talent-box {
-	font-size: 14px;
-}
-
-.shim {
-	display: inline;
-	margin: 0 2px;
-	width: 10px;
-}
-
-span.gray {
-	font-size: 11px;
-	padding: 3px;
-	color: #fff;
-	border: 1px solid #cacbca;
-	background: #646564;
-}
-
-/* Talent Dashboard */
-
-.talent-dash {
-	display: inline;
-	position: relative;
-	padding: 10px 460px 10px 20px;
-	top: 20px;
-	background-color: #ba3226;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
-
-div.talent-dash a {
-	color: #fff;
-	text-decoration: none;
-}
-
-div.talent-dash a:hover {
-	text-decoration: underline;
-}
-
-div.talent-dash a:active {
-	text-decoration: underline;
-	font-style: italic;
-}
-
-div#main-talent-dash a {
-
-}
-
-div#primary > h1 > span {
-	color: #9b9c9b;
-	font-size: 11px;
-	font-style: italic;
-	margin-left: 5px;
-}
-
-div#primary > img {
-	border: 1px solid #9b9c9b;
-	float: left;
-	margin-right: 20px;
-}
-
-div#secondary {
-	position: absolute;
-	top: 165px;
-	left: 460px;
-	display: block;
-	float: left;
-	width: 200px;
-}
-
-div#tertiary {
-	position: absolute;
-	border: 1px solid #9b9c9b;
-	padding: 10px;
-	top: 165px;
-	right: 40px;
-	float: right;
-	width: 200px;
-	background: #f6f6f6;
-}
-
-div#photo-info {
-	position: absolute;
-	top: 380px;
-	left: 0px;
-	display: block;
-	float: left;
-	width: 140px;
-}
-
 /* Buttons */
 
 button.site-button, a.site-button, input[type=submit].site-button {
@@ -410,117 +306,6 @@ div#main > p {
 	text-align: center;
 }
 
-/* JQuery Slide Styles :: http://slidesjs.com/  */
-
-#container {
-	width:580px;
-	padding:10px;
-	margin:0 auto;
-	position:relative;
-	z-index:0;
-}
-
-#example {
-	width:600px;
-	height:350px;
-	position:relative;
-}
-
-#ribbon {
-	position:absolute;
-	top:-3px;
-	left:-15px;
-	z-index:500;
-}
-
-#frame {
-	position:absolute;
-	z-index:0;
-	width:739px;
-	height:341px;
-	top:-3px;
-	left:-80px;
-}
-
-#slides {
-	position:absolute;
-	top:15px;
-	left:4px;
-	z-index:100;
-}
-
-#slides .next,#slides .prev {
-	position:absolute;
-	top:107px;
-	left:-39px;
-	width:24px;
-	height:43px;
-	display:block;
-	z-index:101;
-}
-
-.slides_container {
-	width:570px;
-	height:270px;
-	overflow:hidden;
-	position:relative;
-}
-
-#slides .next {
-	left:585px;
-}
-
-.pagination {
-	margin:26px auto 0;
-	width:100px;
-}
-
-.pagination li {
-	float:left;
-	margin:0 1px;
-}
-
-.pagination li a {
-	display:block;
-	width:12px;
-	height:0;
-	padding-top:12px;
-	background-image:url(../img/pagination.png);
-	background-position:0 0;
-	float:left;
-	overflow:hidden;
-}
-
-.pagination li.current a {
-	background-position:0 -12px;
-}
-
-.caption {
-	position:absolute;
-	bottom:-35px;
-	height:30px;
-	padding:5px 20px 0 20px;
-	background:#000;
-	background:rgba(0,0,0,.5);
-	width:540px;
-	font-size:1.3em;
-	line-height:1.33;
-	color:#fff;
-	border-top:1px solid #000;
-	text-shadow:none;
-}
-
-.redBullet {
-	color: #ba3226;
-}
-
-.leading {
-	color: #707070;
-	font-size: 13px;
-	line-height: 23px;
-}
-
-
 /* Secondary Styles -------------------------------------------- */
 
 
@@ -568,15 +353,14 @@ ul#footnav li a.active, ul#footnav li a:hover {
 /* Natick ------------------------------------------------------ */
 
 #natick {
-	background: #f15d5e url('http://i.imgur.com/Zhh7E90.jpg') no-repeat;
+	background: #f15d5e url('http://natick.s3.amazonaws.com/landing-bg.jpg') no-repeat;
 	background-size: 100% auto;
 }
 
 #natick-signup {
-	background: #c64977 url('http://i.imgur.com/TfAYcNs.jpg') no-repeat;
+	background: #c64977 url('http://natick.s3.amazonaws.com/signup-bg.jpg') no-repeat;
 	background-size: 100% auto;
 }
-
 
 
 /* Classes ------------------------------------------------------ */

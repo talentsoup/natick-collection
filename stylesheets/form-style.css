@@ -70,35 +70,6 @@ Style
 	color:#235485;
 }
 
-
-/* form msg status  */
-.form-msg-info, .form-msg-warning, .form-msg-error, .form-msg-success {
-	padding-left: 27px;
-	font-size:0.9em;
-	border-bottom: 1px solid #ccc;
-}
-.form-msg-info {
-	background: #d1ecf7 url(../img/form-ic-info.png) no-repeat 5px 4px;
-	border-color:#bcdfef;
-	color:#11689e;
-}
-.form-msg-warning {
-	background: #fff6bf url(../img/form-ic-warning.png) no-repeat 5px 4px;
-	border-color:#fceb77;
-	color:#957210;
-}
-.form-msg-error {
-	background: #fad0d0 url(../img/form-ic-error.png) no-repeat 5px 4px;
-	border-color:#f6abab;
-	color:#b01717;
-}
-.form-msg-success {
-	background: #e5f8ce url(../img/form-ic-success.png) no-repeat 5px 4px;
-	border-color:#d0f1a6;
-	color:#62b548;
-}
-
-
 /* form buttons */
 .form-button {
 	font-size:1.6em;
