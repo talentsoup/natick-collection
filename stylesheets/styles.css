@@ -99,38 +99,6 @@ span.bold {
 }
 
 
-/* Natick Landing Image Maps */
-
-#natick-fb-link1 {
-	position: absolute;
-	left: 188px;
-	top: 720px;
-	width: 9px;
-	height: 9px;
-	background-color: transparent;
-	/*border: 1px solid black;*/
-}
-
-#natick-tw-link1 {
-	position: absolute;
-	left: 206px;
-	top: 720px;
-	width: 9px;
-	height: 9px;
-	background-color: transparent;
-	/*border: 1px solid black;*/
-}
-
-#natick-ggp-link1 {
-	position: absolute;
-	left: 236px;
-	top: 712px;
-	width: 47px;
-	height: 17px;
-	background-color: transparent;
-	/*border: 1px solid black;*/
-}
-
 #natick-subtext {
 	position: absolute;
 	color: #f15d5e;
@@ -145,37 +113,7 @@ span.bold {
 	margin-bottom: 10px;
 }
 
-/* Natick Sign Up Image Maps */
 
-#natick-fb-link2 {
-	position: absolute;
-	left: 185px;
-	top: 708px;
-	width: 9px;
-	height: 9px;
-	background-color: transparent;
-	/*border: 1px solid black;*/
-}
-
-#natick-tw-link2 {
-	position: absolute;
-	left: 203px;
-	top: 708px;
-	width: 9px;
-	height: 9px;
-	background-color: transparent;
-	/*border: 1px solid black;*/
-}
-
-#natick-ggp-link2 {
-	position: absolute;
-	left: 230px;
-	top: 700px;
-	width: 47px;
-	height: 17px;
-	background-color: transparent;
-	/*border: 1px solid black;*/
-}
 
 /* Natick Links	*/
 
@@ -196,13 +134,50 @@ span.bold {
 #col1-landing {
 	width:27%;
 	float: left;
-	background-color: black;
+	background-color: #BAD784;
+	background-image: url(http://i.imgur.com/WCvrHsQ.png);
 }
 
 #col2-landing {
 	width: 73%;
 	float: left;
-	background-color: blue;
+	background-color: #EF5A5D;
+	background-image: url(http://i.imgur.com/WCvrHsQ.png);
+}
+
+#natick-couple {
+	padding: 20px;
+	width: 300px;
+	position: relative;
+	z-index: 3;
+}
+
+#natick-logo {
+	width: 110px;
+	z-index: 4;
+	position: absolute;
+	top: 375px;
+	left: 125px;
+}
+
+#media-group {
+	z-index: 4;
+	position: absolute;
+	top: 520px;
+	left: 122px;
+}
+
+#natick-fb {
+	width: 15px;
+}
+
+#natick-tw {
+	width: 15px;
+	margin-right: 10px;
+}
+
+#natick-ggp {
+	width: 60px;
 }
 
 #col1-signup {
@@ -330,12 +305,6 @@ ul#footnav li a.active, ul#footnav li a:hover {
 
 
 /* Natick ------------------------------------------------------ */
-
-#natick {
-	background: #f15d5e url('http://natick.s3.amazonaws.com/landing-bg.jpg') no-repeat;
-	background-size: 100% auto;
-	background-attachment: fixed;
-}
 
 #natick-signup {
 	background: #47a0a9 url('http://natick.s3.amazonaws.com/signup-bg.jpg') no-repeat;
