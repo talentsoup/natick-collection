@@ -189,6 +189,31 @@ span.bold {
 
 /* Main Styles ------------------------------------------------- */
 
+#wrap {
+	width: 100%;
+}
+
+#col1-landing {
+	width:27%;
+	float: left;
+	background-color: black;
+}
+
+#col2-landing {
+	width: 73%;
+	float: left;
+	background-color: blue;
+}
+
+#col1-signup {
+	
+}
+
+#col2-signup {
+
+}
+
+
 #col1 h1 {
 	color: #ba3226;
 }
