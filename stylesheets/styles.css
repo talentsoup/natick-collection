@@ -99,21 +99,6 @@ span.bold {
 }
 
 
-#natick-subtext {
-	position: absolute;
-	color: #f15d5e;
-	left: 55px;
-	top: 985px;
-	width: 350px;
-	/*background-color: transparent;*/
-	/*border: 1px solid black;*/
-}
-
-#natick-subtext p{
-	margin-bottom: 10px;
-}
-
-
 
 /* Natick Links	*/
 
@@ -145,6 +130,20 @@ span.bold {
 	background-image: url(http://i.imgur.com/WCvrHsQ.png);
 }
 
+#col1-signup {
+	width:27%;
+	float: left;
+	background-color: #FEE7AA;
+	background-image: url(http://i.imgur.com/WCvrHsQ.png);
+}
+
+#col2-signup {
+	width: 73%;
+	float: left;
+	background-color: #19A1B0;
+	background-image: url(http://i.imgur.com/WCvrHsQ.png);
+}
+
 #natick-couple {
 	padding: 20px;
 	width: 300px;
@@ -164,7 +163,7 @@ span.bold {
 	z-index: 4;
 	position: absolute;
 	top: 520px;
-	left: 122px;
+	left: 125px;
 }
 
 #natick-fb {
@@ -180,12 +179,15 @@ span.bold {
 	width: 60px;
 }
 
-#col1-signup {
-	
+#natick-subtext {
+	width: 275px;
+	padding: 36px;
+	background-color: #fff;
+	color: #f15d5e;
 }
 
-#col2-signup {
-
+#natick-subtext p {
+	margin-bottom: 15px;
 }
 
 
