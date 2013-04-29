@@ -8,11 +8,10 @@ Author:		Cameron Morgan
 body {
   margin:0px; padding:0px;
   background: none repeat scroll 0 0 #f6f6f6;
-  padding: 34px 0 0;
-	font-family:Arial, Helvetica, sans-serif;
-	color: white;
-	font-size:13px;
-	line-height:19px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  font-size:13px;
+  line-height:19px;
 }
 
 h1 {
