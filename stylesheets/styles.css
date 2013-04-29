@@ -381,9 +381,6 @@ div.pagination {
 	padding-left: 10px;
 }
 
-
-/* Clear Floats */
-
 .group:after {
 	content: ".";
 	display: block;
