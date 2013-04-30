@@ -15,7 +15,7 @@ body {
 
 h1 {
 	font-size: 16px;
-	color: #ba3226;
+	color: #fff;
 	line-height: 26px;
 }
 
@@ -123,7 +123,7 @@ span.bold {
 
 #col2-landing {
 	width: 73%;
-	height: 811px;
+	height:961px;
 	float: left;
 	background-color: #EF5A5D;
 	background-image: url(http://natick.s3.amazonaws.com/WCvrHsQ.png);
@@ -183,7 +183,6 @@ span.bold {
 }
 
 #natick-subtext {
-	width: 275px;
 	padding: 36px;
 	background-color: #fff;
 	color: #f15d5e;
@@ -263,6 +262,10 @@ div#main > p {
 
 #box {
 	text-align: center;
+}
+
+div.col2-landing > h1{
+	font-family: 'Lato', sans-serif;
 }
 
 /* Secondary Styles -------------------------------------------- */
