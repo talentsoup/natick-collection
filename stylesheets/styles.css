@@ -112,18 +112,21 @@ span.bold {
 
 #wrap {
 	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 #col1-landing {
 	width:27%;
 	float: left;
+	height: 100%;
 	background-color: #BAD784;
 	background-image: url(http://natick.s3.amazonaws.com/WCvrHsQ.png);
 }
 
 #col2-landing {
 	width: 73%;
-	height:961px;
+	height: 100%;
 	float: left;
 	background-color: #EF5A5D;
 	background-image: url(http://natick.s3.amazonaws.com/WCvrHsQ.png);
@@ -131,6 +134,7 @@ span.bold {
 
 #col1-signup {
 	width:27%;
+	height: 100%;
 	float: left;
 	background-color: #FEE7AA;
 	background-image: url(http://natick.s3.amazonaws.com/WCvrHsQ.png);
@@ -138,6 +142,7 @@ span.bold {
 
 #col2-signup {
 	width: 73%;
+	height: 100%;
 	float: left;
 	background-color: #19A1B0;
 	background-image: url(http://natick.s3.amazonaws.com/WCvrHsQ.png);
